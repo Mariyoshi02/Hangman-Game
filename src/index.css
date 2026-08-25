@@ -1,6 +1,3 @@
-/* EL ARCHIVO INDEX CSS SIRVE PARA ESTABLECER ACA EL ESTILO QUE QUERRAMOS EN DISTINTOS ELEMENTOS*/
-
-
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -121,7 +118,7 @@ button {
 
 /* Estilo para los botones de las letras */
 .btn-letter {
-  background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%); /* Degradado de rosado a rosa fuerte */
+  background: linear-gradient(135deg, #74e4ff 0%, #0c71c6 100%); /* Degradado de rosado a rosa fuerte */
   color: #ffffff;
   border: none;
   padding: 10px 15px;
@@ -134,7 +131,7 @@ button {
 }
 
 .btn-letter:hover {
-  background: linear-gradient(135deg, #f43f5e 0%, #fb7185 100%);
+  background: linear-gradient(135deg, #86e750 0%, #6ab63f 100%);
   transform: translateY(-2px);
   box-shadow: 0 10px 15px -3px rgba(236, 72, 153, 0.3), 0 4px 6px -2px rgba(236, 72, 153, 0.2);
 }
@@ -146,7 +143,7 @@ button {
 
 /* Estilo para el botón de Nuevo Juego */
 .btn-new-game {
-  background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%); /* Degradado violeta que combina con la paleta actual */
+  background: linear-gradient(135deg, #86d0fd 0%, #e8f957 100%); /* Degradado violeta que combina con la paleta actual */
   color: #ffffff;
   border: none;
   padding: 12px 24px;
@@ -160,7 +157,7 @@ button {
 }
 
 .btn-new-game:hover {
-  background: linear-gradient(135deg, #a78bfa 0%, #c4b5fd 100%);
+  background: linear-gradient(135deg, #b7d98a 0%, #8fbe6e 100%);
   transform: translateY(-2px);
   box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.3), 0 4px 6px -2px rgba(139, 92, 246, 0.2);
 }
