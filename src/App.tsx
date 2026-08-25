@@ -78,33 +78,27 @@ function App() {
   return (
      <div className="App">
       <h1 className="game-title">El juego del ahorcado</h1>
-      {/* Esto es un comentario dentro del html de REACT (no es html en si)*/}
-
-      {/* Imagenes*/}
       <HangImage imageNumber={attempts}/>
 
-      {/*Palabra oculta*/}
+
       <h3> {hiddenWord} </h3>
-      {/*y aca le pasamos la variable hiddenWord para que muestre lo que le habiamos puesto a la constante*/}
 
-      {/*Contador de intentos*/}
+
+
       <h3>Intentos: { attempts } </h3>
-      {/*Aca empezamos los intentos con nuestra variable para controlar/iterar los intentos*/}
-
-      {/*Mensaje si perdio*/}
       {
         (lose) 
-        ? <h2>Perdió {word}</h2> : ''
+        ? <h2>Perdió. La palabra era: {word}</h2> : ''
       }
       
 
-      {/*Mensaje si gano*/}
+
       {
         (won) 
-        ? <h2>Felicidades, usted gano</h2> : ''
+        ? <h2>Felicidades, ganó.</h2> : ''
       }
 
-      {/*Botones de texto*/}
+
       {
         letters.map((letter) => (
           <button 
